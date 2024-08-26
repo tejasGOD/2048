@@ -1,8 +1,8 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #faf8ef;
-  color: #776e65;
+  background: #03373d;
+  color: #37dc50;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px;
 }
@@ -61,7 +61,7 @@ h1.title {
 .score-container {
   position: relative;
   float: right;
-  background: #bbada0;
+  background: #012a21;
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
@@ -90,7 +90,7 @@ h1.title {
   font-size: 25px;
   line-height: 25px;
   font-weight: bold;
-  color: rgba(119, 110, 101, 0.9);
+  color: rgba(122, 120, 240, 0.9);
   z-index: 100;
   -webkit-animation: move-up 600ms ease-in;
   -moz-animation: move-up 600ms ease-in;
@@ -105,7 +105,7 @@ p {
 }
 
 a {
-  color: #776e65;
+  color: #77ec9e;
   font-weight: bold;
   text-decoration: underline;
   cursor: pointer;
@@ -162,7 +162,7 @@ hr {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
-  background: #bbada0;
+  background: #013b13;
   border-radius: 6px;
   width: 500px;
   height: 500px;
@@ -177,7 +177,7 @@ hr {
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(238, 228, 218, 0.5);
+  background: rgb(48, 241, 170);
   z-index: 100;
   text-align: center;
   -webkit-animation: fade-in 800ms ease 1200ms;
@@ -202,13 +202,13 @@ hr {
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
-  color: #f9f6f2;
+  color: #60ec9f;
   height: 40px;
   line-height: 42px;
   margin-left: 9px;
 }
 .game-container .game-message.game-won {
-  background: rgba(237, 194, 46, 0.5);
+  background: rgba(239, 14, 190, 0.5);
   color: #f9f6f2;
 }
 .game-container .game-message.game-won, .game-container .game-message.game-over {
@@ -337,7 +337,7 @@ hr {
 
 .tile {
   border-radius: 3px;
-  background: #eee4da;
+  background: #f3ddee;
   text-align: center;
   font-weight: bold;
   z-index: 10;
